@@ -42,8 +42,8 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onSelectPlan }) 
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-400 text-xs font-bold uppercase tracking-wider mb-6 w-fit">
             <span>Investimento & Escala</span>
           </div>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black font-['Space_Grotesk',sans-serif] text-white tracking-tight mb-6">
-            O Método de Atuação Para o <br />
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black font-['Space_Grotesk',sans-serif] text-white tracking-tight mb-6 leading-tight">
+            O Método de Atuação Para o <br className="hidden sm:block" />
             <span className="text-blue-500">Seu Momento Atual.</span>
           </h2>
           <p className="text-lg text-white/70 leading-relaxed max-w-2xl mx-auto">

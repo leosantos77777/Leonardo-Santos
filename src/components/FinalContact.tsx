@@ -43,7 +43,7 @@ export const FinalContact: React.FC<FinalContactProps> = ({ onOpenDiagnostic }) 
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.3 }}
-                className="text-5xl sm:text-6xl lg:text-7xl font-black font-['Space_Grotesk',sans-serif] tracking-tight text-white mb-6"
+                className="text-4xl sm:text-6xl lg:text-7xl font-black font-['Space_Grotesk',sans-serif] tracking-tight text-white mb-6"
               >
                 Pronto para <br />
                 <span className="text-blue-500">dominar?</span>

@@ -47,7 +47,7 @@ export const MetricsShowcase: React.FC<MetricsShowcaseProps> = ({ onOpenDiagnost
             <BarChart3 className="w-3.5 h-3.5" />
             <span>Transparência Absoluta</span>
           </div>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black font-['Space_Grotesk',sans-serif] text-white tracking-tight leading-tight mb-6">
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black font-['Space_Grotesk',sans-serif] text-white tracking-tight leading-tight mb-6">
             O impacto de uma <br className="hidden sm:block" />
             <span className="text-blue-500">Operação Tática.</span>
           </h2>

@@ -42,8 +42,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenDiagnostic }) => {
               Estrategista de Vendas e Escala
             </motion.div>
             
-            <motion.h1 variants={itemVariants} className="text-5xl sm:text-6xl lg:text-7xl font-black font-['Space_Grotesk',sans-serif] tracking-tight leading-[1.1] mb-8 text-white">
-              Sua máquina de <br />
+            <motion.h1 variants={itemVariants} className="text-[40px] leading-[1.05] sm:text-6xl lg:text-7xl font-black font-['Space_Grotesk',sans-serif] tracking-tight sm:leading-[1.1] mb-8 text-white">
+              Sua máquina de <br className="hidden sm:block" />
               <span className="text-blue-500">vendas imparável.</span>
             </motion.h1>
             
@@ -90,45 +90,45 @@ export const Hero: React.FC<HeroProps> = ({ onOpenDiagnostic }) => {
               <img 
                 src="/leonardo-profile.png" 
                 alt="Leonardo Santos" 
-                className="relative z-10 w-full h-auto object-contain grayscale-[20%] contrast-[1.1] brightness-[0.9] drop-shadow-2xl transition-all duration-700 hover:grayscale-0 scale-110 origin-bottom"
+                className="relative z-10 w-full h-auto object-contain grayscale-[20%] contrast-[1.1] brightness-[0.9] drop-shadow-2xl transition-all duration-700 hover:grayscale-0 scale-100 sm:scale-110 origin-bottom"
                 style={{ 
                   maskImage: 'linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 95%)', 
                   WebkitMaskImage: 'linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 95%)' 
                 }}
               />
 
-              {/* Floating Badge 1 - Moved further out to the right and slightly lower */}
+              {/* Floating Badge 1 - Pushed up and right to avoid face */}
               <motion.div 
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.8, duration: 0.6 }}
-                className="absolute top-[35%] -right-8 sm:-right-12 lg:-right-20 z-20 bg-[#0c1018]/90 backdrop-blur-md border border-white/10 p-4 rounded-2xl shadow-2xl"
+                className="absolute -top-4 sm:top-[20%] lg:top-[30%] right-2 sm:-right-8 lg:-right-16 z-20 bg-[#0c1018]/90 backdrop-blur-md border border-white/10 p-2.5 sm:p-4 rounded-2xl shadow-2xl max-w-[65%] sm:max-w-none"
               >
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-blue-600/20 flex items-center justify-center text-blue-500 shrink-0">
-                    <Target className="w-5 h-5" />
+                <div className="flex items-center gap-2 sm:gap-3">
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-blue-600/20 flex items-center justify-center text-blue-500 shrink-0">
+                    <Target className="w-4 h-4 sm:w-5 sm:h-5" />
                   </div>
                   <div>
-                    <div className="text-white font-bold text-sm">Tráfego Agressivo</div>
-                    <div className="text-white/50 text-xs">Foco 100% em ROAS</div>
+                    <div className="text-white font-bold text-[11px] sm:text-sm leading-tight">Tráfego Agressivo</div>
+                    <div className="text-white/50 text-[9px] sm:text-xs mt-0.5">Foco 100% em ROAS</div>
                   </div>
                 </div>
               </motion.div>
 
-              {/* Floating Badge 2 - Moved lower to avoid hands/face */}
+              {/* Floating Badge 2 - Pushed down and left to avoid hands/chest */}
               <motion.div 
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 1.0, duration: 0.6 }}
-                className="absolute bottom-[20%] -left-8 sm:-left-12 lg:-left-20 z-20 bg-[#0c1018]/90 backdrop-blur-md border border-white/10 p-4 rounded-2xl shadow-2xl"
+                className="absolute bottom-4 sm:bottom-[15%] lg:bottom-[20%] left-2 sm:-left-8 lg:-left-16 z-20 bg-[#0c1018]/90 backdrop-blur-md border border-white/10 p-2.5 sm:p-4 rounded-2xl shadow-2xl max-w-[65%] sm:max-w-none"
               >
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-blue-600/20 flex items-center justify-center text-blue-500 shrink-0">
-                    <TrendingUp className="w-5 h-5" />
+                <div className="flex items-center gap-2 sm:gap-3">
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-blue-600/20 flex items-center justify-center text-blue-500 shrink-0">
+                    <TrendingUp className="w-4 h-4 sm:w-5 sm:h-5" />
                   </div>
                   <div>
-                    <div className="text-white font-bold text-sm">Vendas Implacáveis</div>
-                    <div className="text-white/50 text-xs">Conversão Previsível</div>
+                    <div className="text-white font-bold text-[11px] sm:text-sm leading-tight">Vendas Implacáveis</div>
+                    <div className="text-white/50 text-[9px] sm:text-xs mt-0.5">Conversão Previsível</div>
                   </div>
                 </div>
               </motion.div>

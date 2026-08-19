@@ -95,8 +95,8 @@ export const ThreePillars: React.FC<ThreePillarsProps> = ({ onOpenDiagnostic }) 
             <Layers className="w-3.5 h-3.5" />
             <span>Ecossistema Completo</span>
           </div>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black font-['Space_Grotesk',sans-serif] text-white tracking-tight mb-6">
-            Por que pagar apenas por tráfego <br />
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black font-['Space_Grotesk',sans-serif] text-white tracking-tight mb-6 leading-tight">
+            Por que pagar apenas por tráfego <br className="hidden sm:block" />
             <span className="text-blue-500">é jogar dinheiro no lixo?</span>
           </h2>
           <p className="text-lg text-white/70 leading-relaxed max-w-2xl mx-auto">

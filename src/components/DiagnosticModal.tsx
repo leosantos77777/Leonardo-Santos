@@ -101,7 +101,7 @@ Olá Leonardo, acabei de preencher o dossiê no seu site e gostaria de agendar m
                 <Sparkles className="w-3 h-3" />
                 <span>Auditoria Estratégica Gratuita</span>
               </div>
-              <h3 className="text-3xl sm:text-4xl font-black font-['Space_Grotesk',sans-serif] tracking-tight text-white mb-2">
+              <h3 className="text-3xl sm:text-4xl font-black font-['Space_Grotesk',sans-serif] tracking-tight text-white mb-2 leading-tight">
                 Qualifique sua Empresa
               </h3>
               <p className="text-sm text-white/60 font-medium">

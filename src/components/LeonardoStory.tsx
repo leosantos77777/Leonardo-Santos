@@ -23,8 +23,8 @@ export const LeonardoStory: React.FC<LeonardoStoryProps> = ({ onOpenDiagnostic }
             <Award className="w-3.5 h-3.5" />
             <span>Quem é Leonardo Santos</span>
           </div>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black font-['Space_Grotesk',sans-serif] text-white tracking-tight mb-6">
-            Estratégia validada <br />
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black font-['Space_Grotesk',sans-serif] text-white tracking-tight mb-6 leading-tight">
+            Estratégia validada <br className="hidden sm:block" />
             <span className="text-blue-500">no campo de batalha.</span>
           </h2>
         </motion.div>
