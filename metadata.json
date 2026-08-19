@@ -1,0 +1,6 @@
+{
+  "name": "Santos Tráfego - Captação, CRM e Vendas",
+  "description": "Landing page de alta conversão para Santos Tráfego: Gestão de Tráfego Pago, Implementação de CRM e Treinamento Comercial com Leonardo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
